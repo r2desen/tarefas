@@ -1,3 +1,7 @@
+<div align="center">
+  <a href="https://r2desen.github.io/tarefas/"><h1>Link para GitHub Pages</h1></a>
+</div>
+
 <p align="center">
   <img alt="Imagem do projeto" src=".github/preview.png" width="100%">
 </p>
