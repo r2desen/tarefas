@@ -6,7 +6,7 @@
 </div>
 
 <p align="center">
-  <img alt="Imagem do projeto" src=".github/preview.png" width="100%">
+  <img alt="Imagem do projeto" src="./assets/preview.jpg" width="100%">
 </p>
   
 ## Tecnologias para usar no projeto:
