@@ -4,18 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tarefas</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/styles.css" />
   </head>
   <body>
-    <div><h1>Lista de Tarefas</h1></div>
-    <div>
-      <ul>
-        <li>Tarefa 1</li>
-        <li>Tarefa 2</li>
-        <li>Tarefa 3</li>
-      </ul>
+    <div class="app">
+      <div class="container">
+        <div id="wrapper">
+          <input
+            type="text"
+            name="task"
+            id="task"
+            placeholder="Tarefa a ser feita"
+          />
+          <button id="add-btn">Adicionar</button>
+        </div>
+        <div id="tasks">
+          <p id="pending-tasks">
+            Você tem <span class="count-value">0</span> tarefa(s) para fazer.
+          </p>
+        </div>
+      </div>
+      <p id="error">Informe a tarefa</p>
     </div>
-    <div></div>
     <script src="./assets/scripts.js"></script>
   </body>
 </html>
